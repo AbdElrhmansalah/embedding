@@ -1,15 +1,4 @@
-transformers
-tokenizers
-tqdm
-torch
-torchvision
-numpy
-scikit-learn
-scipy
-nltk
-sentencepiece
-huggingface-hub
-sentence_transformers
+sentence-transformers==2.2.2
 fastapi
 uvicorn
 gunicorn

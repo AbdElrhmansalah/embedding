@@ -1,3 +1,4 @@
+-u sentence_transformers
 fastapi
 uvicorn
 gunicorn

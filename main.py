@@ -1,11 +1,10 @@
 from sentence_transformers import SentenceTransformer
 from fastapi import FastAPI
 
-model = SentenceTransformer('intfloat/multilingual-e5-large')
-
 app = FastAPI()
 
 def process(input_texts):
+    model = SentenceTransformer('intfloat/multilingual-e5-large')
     embeddings = model.encode(input_texts, normalize_embeddings=True)
     return embeddings
 @app.post("/")

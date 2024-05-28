@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import List
 
 # Load the model
-model = SentenceTransformer('e5_local_model')
+model = SentenceTransformer('intfloat/multilingual-e5-large')
 
 # Create a FastAPI app
 app = FastAPI()

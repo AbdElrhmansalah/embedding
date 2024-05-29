@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'E5Hosting'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0209A5B2FF5646C2ACC2CA93C909B660 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B84789010F204618B154F14EFB82F0C7 }}

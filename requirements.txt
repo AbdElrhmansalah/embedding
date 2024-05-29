@@ -1,6 +1,5 @@
-sentence_transformers
 fastapi
 pydantic
-typing
+sentence_transformers
 uvicorn
 gunicorn
